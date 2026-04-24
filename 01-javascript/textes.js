@@ -17,19 +17,18 @@
 //nota1 = nota1 + 1
 //alert(nota1)
 
-let vitorias, empates
-let pontos
-vitorias = prompt("vitórias:")
-vitorias = Number(vitorias)
+//let vitorias, empates
+//let pontos
+//vitorias = prompt("vitórias:")
+//vitorias = Number(vitorias)
 
-empates = prompt("empates:")
-empates = Number(empates)
+//empates = prompt("empates:")
+//empates = Number(empates)
 // empates = Number(prompt("empates"))
 
-pontos = vitorias*3 + empates
- alert("total de pontos:" + pontos)
+//pontos = vitorias*3 + empates
+ //alert("total de pontos:" + pontos)
 
+ //alert=console.log
+ //"ctrl ;" para desativar codigo no html   
 
-
-    
-/
