@@ -10,4 +10,5 @@ output{
 button{
     background-color: rgb(48, 30, 210);
     color: #99ffff;
+    margin: 10px;
 }
