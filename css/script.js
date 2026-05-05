@@ -139,6 +139,26 @@ if(visitantesNaArea == 0 && horaAtual > 18){
 
 }
 
+function adivinharnumero(){
+// let numero = Math.round(Math.random()*10) //0..10
+// let numero = Msth.floor(math.random()*10) //0..9
+ let numero = Math.ceil(Math.random()*10) //1..10
+ // let numero = Math.random()
+    // console.log(numero);
+    // numero = numero * 10
+    // console.log(numero);
+    // numero = Math.ceil(numero)
+    // console.log(numero);
+let chute
+chute = Number(prompt("chute um número de 1 a 10:"))
+if(chute == numero){
+  document.getElementById("resultado").innerHTML = "acertou"
+}else{
+  document.getElementById("resultado").innerHTML = "errou"
+}
+
+}
+
 
 
 
