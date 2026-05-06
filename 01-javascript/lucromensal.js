@@ -9,3 +9,9 @@ lucroreal = (faturamento1 + faturamento2) - gasto
 console. log("lucro real é " + lucroreal)
 lucropercentual = lucroreal*100/gasto
 console. log("lucro percentual é: " + lucropercentual)
+
+if(faturamento1 > faturamento2){
+  console.log("capitão ganso fatura mais com os ingressos.")  
+}else{
+    console.log("capitão ganso fatura mais com os itens.")
+}

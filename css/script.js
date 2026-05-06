@@ -139,6 +139,19 @@ if(visitantesNaArea == 0 && horaAtual > 18){
 
 }
 
+function VerificandoIdade(){
+let idade
+
+idade = Number(prompt("informe sua idade:"))
+
+if(idade >= 18){
+  document.getElementById("resultado").innerHTML = "maior de idade"
+}else{
+  document.getElementById("resultado").innerHTML = "menor de idade"
+}
+
+}
+
 function adivinharnumero(){
 // let numero = Math.round(Math.random()*10) //0..10
 // let numero = Msth.floor(math.random()*10) //0..9
@@ -159,6 +172,56 @@ if(chute == numero){
 
 }
 
+function mostrardiadasemana(){
+let numero, dia
+
+numero = Number(prompt("digita o número"))
+
+if(numero == 1){
+  dia = "domingo"
+}else if(numero == 2){
+  dia = "segunda"
+}else if(numero == 3){
+  dia = "terça"
+}else if(numero == 4){
+  dia = "quarta"
+}else if(numero == 5){
+  dia = "quinta"
+}else if(numero == 6){
+  dia = "sexta"
+}else if(numero = 7){
+  dia = "sábado"
+}
+
+document.getElementById("resultado").innerHTML = dia
+}
+
+function calcularparimpar(){
+let n 
+
+n = Number(prompt("digite o número"))
+
+if(n%2 == 0){
+  document.getElementById("resultado").innerHTML = "par" 
+}else{
+  document.getElementById("resultado").innerHTML = "impar"
+}
+
+}
+
+function DecisãodeCompra(){
+let precoItem, saldo
+
+precoItem = Number(prompt("informe o preço do item:"))
+saldo = Number(prompt("informe seu saldo:"))
+
+if(saldo > precoItem){
+  document.getElementById("resultado").innerHTML = "compra liberada"
+}else{
+  document.getElementById("resultado").innerHTML = "saldo insuficiente"
+}
+  
+}
 
 
 
@@ -187,15 +250,4 @@ if(chute == numero){
 
 
 
-// function calcilarPrecoBrique(){
-// let obra, preçodevenda
 
-// obra = Number(prompt("informe o valor da obra:"))
-
-// preçodevenda = obra + 2*obra
-// console. log("a obra deve ser vendida por: " + "R$" + preçodevenda.toFixed(2))
-// alert("a obra deve ser vendida por: " + "R$" + preçodevenda.toFixed(2))
-
-// document.getElementById("resultado").innerHTML = "a obra deve ser vendida por: " + "R$"
-//  + preçodevenda.toFixed(2) 
-// }
