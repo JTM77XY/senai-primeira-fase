@@ -223,6 +223,71 @@ if(saldo > precoItem){
   
 }
 
+function idadecachorro(){
+let idade
+let anoshumanos
+
+idade = Number(prompt("informe a idade do cachorro:"))
+
+anoshumanos = idade*7
+
+if(anoshumanos > 60){
+  document.getElementById("resultado").innerHTML = "pode se aposentar por idade."
+}else{
+  document.getElementById("resultado").innerHTML =  "doguinho não pode se aposentar."
+}
+
+}
+
+function VerificandoVotacao(){
+let idade
+
+idade = Number(prompt("informe a idade:"))
+
+if(idade >= 16){
+  document.getElementById("resultado").innerHTML = "elegivel para votar."
+}else{
+  document.getElementById("resultado").innerHTML = "não é elegivel para votar."
+}
+
+}
+
+function CalculadoraIMC(){
+let peso, altura
+let imc 
+
+peso = Number(prompt("informe o peso:"))
+altura = Number(prompt("informe a altura:"))
+
+imc = peso/(altura*altura)
+
+if(imc > 25){
+  document.getElementById("resultado").innerHTML = imc.toFixed(2) + " imc está acima de 25."
+}else{
+  document.getElementById("resultado").innerHTML =  imc.toFixed(2) + " imc está abaixo de 25."
+}
+
+}
+
+function ConversorTemperatura(){
+let celsius
+let fahrenheit
+
+celsius = Number(prompt("informe a temperatura em graus celsius"))
+
+fahrenheit = celsius*9/5+32
+
+if(fahrenheit > 68){
+  document.getElementById("resultado").innerHTML = "alerta! super calor."
+}else{
+  document.getElementById("resultado").innerHTML = fahrenheit + " graus fahrenheit."
+}
+
+
+}
+
+
+
 
 
 
