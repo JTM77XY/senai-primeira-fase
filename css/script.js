@@ -283,7 +283,48 @@ if(fahrenheit > 68){
   document.getElementById("resultado").innerHTML = fahrenheit + " graus fahrenheit."
 }
 
+}
 
+function GarcomDeCaraFeia(){
+let salario, emprestimo, Nprestacoes
+let valorprestacao, salarioporcento
+
+salario = Number(prompt("informe o salario:"))
+emprestimo = Number(prompt("informe o valor do empréstimo:"))
+Nprestacoes = Number(prompt("informe o número de prestações:"))
+
+valorprestacao = emprestimo/Nprestacoes
+salarioporcento = salario*30/100
+
+if(valorprestacao > salarioporcento){
+  document.getElementById("resultado").innerHTML = valorprestacao.toFixed(2) + "R$" + " empréstimo não pode ser concedido"
+}else{
+  document.getElementById("resultado").innerHTML = valorprestacao.toFixed(2) + "R$" + " empréstimo concedido"
+}
+
+}
+
+function StarUbers(){
+let distancia, velocidadeluz = 300000
+let temposegundo, tempominuto, tempohoras, tempodias, resposta = document.getElementById("resultado")
+
+distancia = Number(prompt("informe a distancia em quilômetros:"))
+
+temposegundo = distancia/velocidadeluz
+tempominuto = temposegundo/60                    //<br> quebra de linha
+tempohoras = tempominuto/60
+tempodias = tempohoras/24
+
+if(temposegundo > 60){
+  resposta.innerHTML = temposegundo + " s " + "ou " + tempominuto + " minutos" 
+}
+if(tempominuto > 60){
+    resposta.innerHTML += " ou " + tempohoras + " horas"
+}
+if(tempohoras > 24){
+  resposta.innerHTML += " ou " + tempodias + " dias"
+}
+  
 }
 
 
