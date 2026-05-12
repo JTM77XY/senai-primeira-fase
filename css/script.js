@@ -306,7 +306,8 @@ if(valorprestacao > salarioporcento){
 
 function StarUbers(){
 let distancia, velocidadeluz = 300000
-let temposegundo, tempominuto, tempohoras, tempodias, resposta = document.getElementById("resultado")
+let temposegundo, tempominuto, tempohoras, tempodias, tempomeses, tempoAnos
+let resposta = document.getElementById("resultado")
 
 distancia = Number(prompt("informe a distancia em quilômetros:"))
 
@@ -314,6 +315,8 @@ temposegundo = distancia/velocidadeluz
 tempominuto = temposegundo/60                    //<br> quebra de linha
 tempohoras = tempominuto/60
 tempodias = tempohoras/24
+tempomeses = tempodias/30
+tempoAnos = tempomeses/12
 
 if(temposegundo > 60){
   resposta.innerHTML = temposegundo + " s " + "ou " + tempominuto + " minutos" 
@@ -323,6 +326,12 @@ if(tempominuto > 60){
 }
 if(tempohoras > 24){
   resposta.innerHTML += " ou " + tempodias + " dias"
+}
+if(tempodias > 30){
+  resposta.innerHTML += " ou " + tempomeses + " meses"
+}
+if(tempomeses > 12){
+  resposta.innerHTML += " ou " + tempoAnos + " anos"
 }
   
 }
