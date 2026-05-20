@@ -27,6 +27,10 @@ function zerarContagem(){
     document.getElementById('p-contagem').innerHTML = cont
 }
 
+
+
+
+
 let total = 0
 function registrarVenda(){
 let valor = Number(document.getElementById("inputvenda").value)
@@ -36,9 +40,57 @@ total = total + valor
 document.getElementById("totalvendido").innerHTML = 'Total de vendas: R$' + total.toFixed(2)
 document.getElementById("listavendas").innerHTML += 'R$' + valor.toFixed(2) + '<br>'
 document.getElementById("inputvendas").value = ''
-document.getElementById("inputvendas").focus()
+document.getElementById("inputvendas").focus()   
+}
+function desfazer(){
+    total = "Total de vendas: R$" + 0
+    document.getElementById("totalvendido").innerHTML = total
+}
 
-    
+
+let rolagen2 = 0
+let rolagen = 0
+function D2(){
+    rolagen += 2
+    rolagen2 = 2
+    document.getElementById("totalrolagens").innerHTML = "total das rolagens:" + rolagen
+    document.getElementById("dado").innerHTML += "D"+ rolagen2
+}
+function D4(){
+    rolagen += 4
+    rolagen2 = 4
+    document.getElementById("totalrolagens").innerHTML = "total das rolagens:" + rolagen
+    document.getElementById("dado").innerHTML += "D"+ rolagen2   
+}
+function D6(){
+    rolagen += 6
+    rolagen2 = 6
+    document.getElementById("totalrolagens").innerHTML = "total das rolagens:" + rolagen
+    document.getElementById("dado").innerHTML += "D"+ rolagen2
+}
+function D10(){
+    rolagen += 10
+    rolagen2 = 10
+    document.getElementById("totalrolagens").innerHTML = "total das rolagens:" + rolagen
+    document.getElementById("dado").innerHTML += "D"+ rolagen2
+}
+function D12(){
+    rolagen += 12
+    rolagen2 = 12
+    document.getElementById("totalrolagens").innerHTML = "total das rolagens:" + rolagen
+    document.getElementById("dado").innerHTML += "D"+ rolagen2
+}
+function D20(){
+    rolagen += 20
+    rolagen2 = 20
+    document.getElementById("totalrolagens").innerHTML = "total das rolagens:" + rolagen
+    document.getElementById("dado").innerHTML += "D"+ rolagen2
+}
+function reset(){
+    rolagen = 0
+    rolagen2 = 0
+    document.getElementById("totalrolagens").innerHTML = "total das rolagens:" + rolagen
+    document.getElementById("dado").innerHTML = "último dado:" + rolagen2
 }
 
 
