@@ -94,6 +94,46 @@ function reset(){
 }
 
 
+let aposta = 0
+function espinossauro(){
+let valorAposta = Number(document.getElementById("jogodino").value)
+document.getElementById("resultado").innerHTML = "Resultado:" + aposta
+aposta = aposta + valorAposta
+}
+function TRex(){
+
+}
+function braquiossauro(){
+
+}
+function velocirraptor(){
+  let valorAposta = Number(document.getElementById("jogodino").value)
+  let = dobro = 2*valorAposta
+  
+  document.getElementById("resultado").innerHTML = "Resultado:" + dobro
+}
+function estegossauro(){
+
+}
+function triceratopo(){
+
+}
+function anquilossauro(){
+
+}
+function parassaurolofo(){
+
+}
+function alossauro(){
+
+}
+function carnotauro (){
+
+}
+
+
+
+
 
 
 
