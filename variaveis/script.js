@@ -67,39 +67,6 @@ function resetar(){
 }  
 
 
-
-
-let aposta = 0
-function dinossauro(letra){
-let valorAposta = Number(document.getElementById("jogodino").value)
-aposta = aposta + valorAposta
-document.getElementById("resultado").innerHTML = "Resultado:" + "você errou"
-document.getElementById("sorteado").innerHTML = "Dino sorteado:" + "velocirraptor"
-document.getElementById("valorarrecadado").innerHTML = "valor arrecadado:" + aposta
-document.getElementById("dino").innerHTML = "Seu dino:" + letra
-}
-function velocirraptor(dinorapido){
-  let valorAposta = Number(document.getElementById("jogodino").value)
-  let = dobro = 2*valorAposta
-  document.getElementById("sorteado").innerHTML = "Dino sorteado:" + "velocirraptor"
-  document.getElementById("resultado").innerHTML = "Resultado:" + dobro + " você acertou"
-  document.getElementById("dino").innerHTML = "Seu dino:" + dinorapido
-}
-function lucro(){}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // let global = "eu sou uma variável global"
 // function funcao1(){
     // let local = "sou uma variavel local :D"
