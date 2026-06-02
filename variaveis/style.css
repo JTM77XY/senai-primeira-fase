@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    background-color: rgb(196, 178, 16);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+body{
+    background-color: rgb(101, 102, 12);
+    margin: 2px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+input{
+    height: 25px;
+    border-radius: 10px;
+}
+#divbt{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+
+
+
+
+
+/* 101 102 12 */

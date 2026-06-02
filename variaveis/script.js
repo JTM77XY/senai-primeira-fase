@@ -69,108 +69,21 @@ function resetar(){
 
 
 
-
-// let dinosorteado = "velocirraptor"
-// let aposta = 0
-// function espinossauro(){
-// let valorAposta = Number(document.getElementById("jogodino").value)
-// aposta = aposta + valorAposta
-// document.getElementById("resultado").innerHTML = "Resultado:" + "você errou"
-// document.getElementById("sorteado").innerHTML = "Dino sorteado:" + dinosorteado
-// document.getElementById("valorarrecadado").innerHTML = "valor arrecadado:" + aposta
-// document.getElementById("dino").innerHTML = "Seu dino:" + "espinossauro"
-// }
-// function TRex(){
-// let valorAposta = Number(document.getElementById("jogodino").value)
-// aposta = aposta + valorAposta
-// document.getElementById("resultado").innerHTML = "Resultado:" + "você errou"
-// document.getElementById("sorteado").innerHTML = "Dino sorteado:" + dinosorteado
-// document.getElementById("valorarrecadado").innerHTML = "valor arrecadado:" + aposta
-// document.getElementById("dino").innerHTML = "Seu dino:" + "T-rex"
-// }
-// function braquiossauro(){
-// let valorAposta = Number(document.getElementById("jogodino").value)
-// aposta = aposta + valorAposta
-// document.getElementById("resultado").innerHTML = "Resultado:" + "você errou"
-// document.getElementById("sorteado").innerHTML = "Dino sorteado:" + dinosorteado
-// document.getElementById("valorarrecadado").innerHTML = "valor arrecadado:" + aposta
-// document.getElementById("dino").innerHTML = "Seu dino:" + "braquiossauro"
-// }
-// function velocirraptor(){
-//   let valorAposta = Number(document.getElementById("jogodino").value)
-//   let = dobro = 2*valorAposta
-//   document.getElementById("sorteado").innerHTML = "Dino sorteado:" + dinosorteado
-//   document.getElementById("resultado").innerHTML = "Resultado:" + dobro + " você acertou"
-//   document.getElementById("dino").innerHTML = "Seu dino:" + "velocirraptor"
-// }
-// function estegossauro(){
-// let valorAposta = Number(document.getElementById("jogodino").value)
-// aposta = aposta + valorAposta
-// document.getElementById("resultado").innerHTML = "Resultado:" + "você errou"
-// document.getElementById("sorteado").innerHTML = "Dino sorteado:" + dinosorteado
-// document.getElementById("valorarrecadado").innerHTML = "valor arrecadado:" + aposta
-// document.getElementById("dino").innerHTML = "Seu dino:" + "estegossauro"
-// }
-// function triceratopo(){
-// let valorAposta = Number(document.getElementById("jogodino").value)
-// aposta = aposta + valorAposta
-// document.getElementById("resultado").innerHTML = "Resultado:" + "você errou"
-// document.getElementById("sorteado").innerHTML = "Dino sorteado:" + dinosorteado
-// document.getElementById("valorarrecadado").innerHTML = "valor arrecadado:" + aposta
-// document.getElementById("dino").innerHTML = "Seu dino:" + "triceratopo"
-// }
-// function anquilossauro(){
-// let valorAposta = Number(document.getElementById("jogodino").value)
-// aposta = aposta + valorAposta
-// document.getElementById("resultado").innerHTML = "Resultado:" + "você errou"
-// document.getElementById("sorteado").innerHTML = "Dino sorteado:" + dinosorteado
-// document.getElementById("valorarrecadado").innerHTML = "valor arrecadado:" + aposta
-// document.getElementById("dino").innerHTML = "Seu dino:" + "anquilossauro"
-// }
-// function parassaurolofo(){
-// let valorAposta = Number(document.getElementById("jogodino").value)
-// aposta = aposta + valorAposta
-// document.getElementById("resultado").innerHTML = "Resultado:" + "você errou"
-// document.getElementById("sorteado").innerHTML = "Dino sorteado:" + dinosorteado
-// document.getElementById("valorarrecadado").innerHTML = "valor arrecadado:" + aposta
-// document.getElementById("dino").innerHTML = "Seu dino:" + "parassaurolofo"
-// }
-// function alossauro(){
-// let valorAposta = Number(document.getElementById("jogodino").value)
-// aposta = aposta + valorAposta
-// document.getElementById("resultado").innerHTML = "Resultado:" + "você errou"
-// document.getElementById("sorteado").innerHTML = "Dino sorteado:" + dinosorteado
-// document.getElementById("valorarrecadado").innerHTML = "valor arrecadado:" + aposta
-// document.getElementById("dino").innerHTML = "Seu dino:" + "alossauro"
-// }
-// function carnotauro (){
-// let valorAposta = Number(document.getElementById("jogodino").value)
-// aposta = aposta + valorAposta
-// document.getElementById("resultado").innerHTML = "Resultado:" + "você errou"
-// document.getElementById("sorteado").innerHTML = "Dino sorteado:" + dinosorteado
-// document.getElementById("valorarrecadado").innerHTML = "valor arrecadado:" + aposta
-// document.getElementById("dino").innerHTML = "Seu dino:" + "carnotauro"
-// }
-
-function lucro(){  
-}
-
-let dinosorteado = "velocirraptor"
 let aposta = 0
 function dinossauro(letra){
 let valorAposta = Number(document.getElementById("jogodino").value)
 aposta = aposta + valorAposta
 document.getElementById("resultado").innerHTML = "Resultado:" + "você errou"
-document.getElementById("sorteado").innerHTML = "Dino sorteado:" + dinosorteado
+document.getElementById("sorteado").innerHTML = "Dino sorteado:" + "velocirraptor"
 document.getElementById("valorarrecadado").innerHTML = "valor arrecadado:" + aposta
 document.getElementById("dino").innerHTML = "Seu dino:" + letra
 }
-function velocirraptor(){
+function velocirraptor(dinorapido){
   let valorAposta = Number(document.getElementById("jogodino").value)
   let = dobro = 2*valorAposta
-  document.getElementById("sorteado").innerHTML = "Dino sorteado:" + dinosorteado
+  document.getElementById("sorteado").innerHTML = "Dino sorteado:" + "velocirraptor"
   document.getElementById("resultado").innerHTML = "Resultado:" + dobro + " você acertou"
-  document.getElementById("dino").innerHTML = "Seu dino:" + "velocirraptor"
+  document.getElementById("dino").innerHTML = "Seu dino:" + dinorapido
 }
 function lucro(){}
 

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>var</title>
 </head>
 <body>
@@ -48,8 +49,9 @@
         <button onclick="rolarDado(12)">d12</button>
         <button onclick="rolarDado(20)">d20</button> 
      </div>
-      <div id="historico">
-    </div>
+      <div 
+      id="historico">
+     </div>
 
      <hr>
     
@@ -82,37 +84,40 @@
     <p id="valorarrecadado">valor arrecado:</p>
     <hr> -->
 
-    <h1>jogo do dino2</h1>
-<div>
+    <h1>jogo do dino2 <button onclick="lucro()">mostrar lucro</button></h1>
+    <br>
      valor das apostas: R$
-     <input id="jogodino" type="text">
-      <button onclick="lucro()">mostrar lucro</button>
-</div>
-<br>
-<button onclick="dinossauro('espinossauro')">espinossauro</button>
+    <input id="jogodino" type="text">
+    <!-- <button onclick="lucro()">mostrar lucro</button> -->
+    <br>
+    <br>
+   <div id="divbt">
+     <button onclick="dinossauro('espinossauro')">espinossauro</button>
      <button onclick="dinossauro('t-rex')">T-rex</button>
-     <button onclick="dinossauro()">braquiossauro</button>
+     <button onclick="dinossauro('braquiossauro')">braquiossauro</button>
      <br>
      <br>
-     <button onclick="velocirraptor()">velocirraptor</button>
-     <button onclick="dinossauro()">estegossauro</button>
-     <button onclick="dinossauro()">triceratopo</button>
+     <button onclick="velocirraptor('velocirraptor')">velocirraptor</button>
+     <button onclick="dinossauro('estegossauro')">estegossauro</button>
+     <button onclick="dinossauro('triceratopo')">triceratopo</button>
      <br>
      <br>
-     <button onclick="dinossauro()">anquilossauro</button>
-     <button onclick="dinossauro()">parassaurolofo</button>
-     <button onclick="dinossauro()">alossauro</button>
+     <button onclick="dinossauro('anquilossauro')">anquilossauro</button>
+     <button onclick="dinossauro('parassaurolofo')">parassaurolofo</button>
+     <button onclick="dinossauro('alossauro')">alossauro</button>
      <br>
      <br>
-     <button onclick="dinossauro()">carnotauro</button>
-     <p id="resultado">Resultado:</p>
-    <p id="dino">Seu dino:</p>
+     <button onclick="dinossauro('carnotauro')">carnotauro</button>
+  </div>
+  <br>
+    <p><output id="resultado">Resultado:</output></p>
+    <p><output id="dino">Seu dino:</output></p>
     <div id="sorteado">Dino sorteado:</div>
     <p id="valorarrecadado">valor arrecado:</p>
     <hr>
     
-
-
+    
+    
      
    <script src="script.js"></script> 
 </body>
