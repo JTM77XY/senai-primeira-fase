@@ -35,7 +35,7 @@ function converterParaDinossauro(n){
     }
 
     return dino
-    console.log(dino);  
+   // console.log(dino);  
 }
 
 function dinossauro(n){

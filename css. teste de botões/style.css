@@ -1,0 +1,41 @@
+.btn1{
+   background-color: rgb(189, 32, 32);
+   padding: 12px;
+   border-radius: 6px;
+   border: none;
+   color: aliceblue;
+   font-size: 16px;
+}
+
+.btn1:hover{
+    color: rgb(13, 221, 65);
+    background-color: blue;
+    box-shadow: #312f2f 5px 5px 8px ;
+    border-radius: 15px;
+}
+
+.btn2{
+    background-color: aquamarine;
+    margin: 6px;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+}
+.btn2:hover{
+    transform:scale(1.2) ;
+    box-shadow: #312f2f 5px 5px 8px;
+
+}
+
+.btn3{
+    background-color: rgb(0, 140, 255);
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+}
+
+.btn3:hover{
+    transform: scale(1.2) rotate(10deg);
+    box-shadow: #312f2f 5px 5px 8px;
+}
