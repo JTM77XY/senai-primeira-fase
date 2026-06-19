@@ -51,24 +51,64 @@
 //    console.log(soma)
 // }
 
-//exercicio 4
+//exercicio 4 e 5
+// let numero = Number(prompt("digite o número"))
 // let resultado
 // let contador = 0
 // while(contador <= 10){
-//     resultado = 5*contador
+//     resultado = numero*contador
 //     contador++
 //     console.log(resultado)
 // }
 
-//exercicio 6
-// let i = 0
-// while(i < 20){
-//     i++
+// exercicio 6              //o % pega o resto de uma divisão.
+// let i = 0               //se um número for divisivel por 2, ele é par.
+// while(i < 20){          // se um número não for divisivel por 2 , ele é impar.
+//     i++                 // para um número ser divisivel por outro número, o resto tem que ser igual a 0.   
 //     if(i%2 != 0){
 //     console.log(i)
 //     }
     
 // }
+
+//execicio 7
+// let contador = 0
+// while(contador < 10){
+//     contador ++
+//     console.log(contador)
+    
+// }
+// let contador = 10
+// while(contador >= 1){
+//     console.log(contador)
+//     contador --
+// }
+
+//exercicio 8     // n*(n-1)
+let i = 0
+let numero = Number(prompt("digite o número"))
+let fatorial = 1
+while(i < numero){
+   i++
+   fatorial = fatorial *i
+   console.log(fatorial)
+}
+
+
+
+//exercicio 9
+// let contador = 0
+// while(contador < 100){
+//     contador ++
+
+//     if(contador % 3 == 0){console.log("Fizz")}
+//     console.log(contador)
+// }
+
+
+
+
+
 
 
 
