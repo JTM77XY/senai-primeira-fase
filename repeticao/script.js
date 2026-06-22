@@ -84,25 +84,53 @@
 //     contador --
 // }
 
-//exercicio 8     // n*(n-1)
-let i = 0
-let numero = Number(prompt("digite o número"))
-let fatorial = 1
-while(i < numero){
-   i++
-   fatorial = fatorial *i
-   console.log(fatorial)
-}
+//exercicio 8     
+// let i = 0
+// let numero = Number(prompt("digite o número"))
+// let fatorial = 1
+// while(i < numero){
+//    i++
+//    fatorial = fatorial *i
+//    console.log(fatorial)
+// }
 
+// let i = Number(prompt("digite o número"))
+// while(i >= 1){
+//    let fatorial = i*(i-1)
+//    console.log(fatorial)
+//    i--
+//    i--
+// }
 
-
-//exercicio 9
+// exercicio 9
 // let contador = 0
 // while(contador < 100){
 //     contador ++
 
-//     if(contador % 3 == 0){console.log("Fizz")}
-//     console.log(contador)
+//     if(contador % 3 == 0){console.log(contador +"Fizz")} // se o resto da divisão de contador por três redultar em 0, vai mostrar no console.log a resposta.
+//     if(contador % 5 == 0){console.log(contador + "buzz")}
+//     if(contador % 3 == 0 && contador % 5 == 0){console.log( contador+"FizzBuzz")}
+//     // console.log(contador)
+    
+// }
+//  console.log(contador)
+
+ //exercicio 10
+//  let serie = 0
+//  let i = 1
+//  while(i <= 10){
+//    serie = serie + 1 / i
+//  i++
+//  }
+// console.log(serie.toFixed(6))
+
+//exercicio 11
+// let numero = Number(prompt("digite o número"))
+// i = 0
+// while(i< numero){
+//     i++
+//     if(i % 2 == 0){console.log(i + "par")}else{console.log(i + "impar")}
+//     // console.log(i)
 // }
 
 
@@ -112,5 +140,3 @@ while(i < numero){
 
 
 
-// i%3 == 0
-// i%5 == 0

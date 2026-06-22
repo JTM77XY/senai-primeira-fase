@@ -1,8 +1,10 @@
-let cont = 0
+// let contagem // explicação dentro da função. variavel recebendo valor: contagem = N+1. variavel sendo incremebtada: contagem = contagem + 1
+let cont = 0 // variavel global que pode novos valores por incremento
 function incrementarContagem(){
-    // cont = cont + 1
-    // cont+=
-    cont++
+    cont = cont + 1 //cont = cont + 1, cont+=1 e cont++ são três formas de dizer a mesma coisa.
+    // cont+= 1
+    // cont++
+    // contagem = cont + 1 // esta opção não funciona, pois não estou mostrando um contador que está sendo icrementado e sim um uma variavel sem valor que está recebendo um valor. essa variavel não está sendo icrementada.
     document.getElementById("p-contagem").innerHTML = cont
 }
 
