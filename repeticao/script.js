@@ -93,22 +93,16 @@
 //    fatorial = fatorial *i
 //    console.log(fatorial)
 // }
+let fatorial = 1
+let i = Number(prompt("digite o número"))
+while(i >= 1){
+   fatorial = fatorial * i
+   i--
+   //i--
+}
+console.log(fatorial)
 
-// let i = Number(prompt("digite o número"))
-// while(i >= 1){
-//    let fatorial = i*(i-1)
-//    console.log(fatorial)
-//    i--
-//    i--
-// }
 
-// let i = Number(prompt("digite o número"))
-// let fatorial = 5
-// while( i > 1){
-//    let total = (fatorial -1)*i
-//    console.log(total)
-//    i--
-// }
 
 
 
