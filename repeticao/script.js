@@ -98,9 +98,10 @@ let i = Number(prompt("digite o número"))
 while(i >= 1){
    fatorial = fatorial * i
    i--
-   //i--
+   console.log(fatorial)
+
 }
-console.log(fatorial)
+// console.log(fatorial)
 
 
 
