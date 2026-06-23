@@ -102,6 +102,18 @@
 //    i--
 // }
 
+// let i = Number(prompt("digite o número"))
+// let fatorial = 5
+// while( i > 1){
+//    let total = (fatorial -1)*i
+//    console.log(total)
+//    i--
+// }
+
+
+
+
+
 // exercicio 9
 // let contador = 0
 // while(contador < 100){
