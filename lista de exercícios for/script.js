@@ -107,10 +107,11 @@
 // }
 //  console.log(s)
 
-//exer 12   11 + 2*50
-// let s = 0
-// for(let i = 12; i <=12223; i++){
-
+//exer 12  // S é uma variavel vazia e o número que entra nela vira uma string.
+// let s = ''
+// for(let i = 1; i <=5; i++){
+//   s = s + i
+//   console.log(s)
 // }
 
 //exer 13
@@ -122,9 +123,18 @@
 // console.log(s)
 
 //exer 14
-let P = prompt("digite a palavra")
-console.log(P.length)
+// let cont = 0
+// let letra = 'o'
+// let p = prompt("digite a palavra")
 
+// for(let i = 0 ; i < p.length ; i++){
+//    if(p[i] === letra){
+//      cont++
+     
+//     //   console.log(cont)
+//    }
+// }
+// console.log(cont)
 
 
 

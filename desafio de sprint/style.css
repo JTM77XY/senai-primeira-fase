@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+ justify-self: center;
+ color: blueviolet;
+}
+
+#botao{
+    justify-self: center;
+}
+
+button{
+    margin: 15px;
+    padding: 5px;
+    background-color: blueviolet;
+    color: aliceblue;
+}
