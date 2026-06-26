@@ -7,15 +7,38 @@
 h1{
  justify-self: center;
  color: blueviolet;
+ padding: 10px;
 }
+
+textarea{
+    width: 1000px;
+    height: 200px;
+    padding: 50px;
+}
+
+
 
 #botao{
     justify-self: center;
+   
 }
 
 button{
     margin: 15px;
-    padding: 5px;
+    padding: 15px;
     background-color: blueviolet;
     color: aliceblue;
+    border-radius: 10px;
 }
+
+#caixa{
+    justify-self: center;
+    
+}
+
+
+
+
+
+
+
