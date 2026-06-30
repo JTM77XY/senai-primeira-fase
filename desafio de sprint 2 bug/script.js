@@ -12,3 +12,7 @@ function relatorio(){
     media = total/sprint
     document.getElementById('bug').innerHTML += ` media de bugs: ${media}` 
 }
+
+//criar duas variaveis número menor e número maior.
+// criar um if dentro do for.
+// se for dia 1, essas variaveis vão receber o valor da variavel bugs.

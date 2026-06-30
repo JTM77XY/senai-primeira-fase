@@ -1,0 +1,8 @@
+.produtos{
+    margin: 5px;
+    border: 1px;
+}
+
+#lista-precos{
+    display: flex;
+}
