@@ -1,22 +1,47 @@
-// function rodarWhile(){
-//  let i = 0 //1° pilar
-//  while(i<50){ //2° pilar
-//     // console.log(i)
-//     i++ // 3° pilar
-//      console.log(i)
-//  }
-// }
+let idades = [18,20,12,35,14,15] //arrays = [] é uma armario com varias gavetas onde pode guardar imformações.
+let precos = []
+function array00(){
+    // let idades = [18,20,12,35,14,15]   
+    // console.log(idades)  // mostra o armario todo
+    // console.log(idades.length) // mostra só o tamanho do armario
+    // let i = 0
+    // for(let i = 0; i<6;i++){
+    // console.log('idade:'+ idades[i]) // mostra uma gaveta do armario e o conteudo dentro dela.
+    // }
 
-// function rodarfor(){
-//     for(let i = 0; i<50; i++){
-//         console.log(i)
-//     }
-// }
+    // for(let i = 0; i<idades.length;i++){
+    // console.log('idade:'+ idades[i])
+    // }
 
-// function rodarDoWhile(){
-//     let i = 100
-//     do{
-//         console.log(i)
-//         i++
-//     }while(i<50)
-// }
+}
+
+function addprecos(){
+    let n = Math.ceil(Math.random() *100) // números aleatorios.
+    precos.push(n) // adiciona o conteúdo da variavel N dentro da array precos.
+    // console.log(precos)
+    document.getElementById('lista-precos').innerHTML = ''
+    for(let i = 0; i<precos.length; i++){
+        // console.log(precos[i])
+        document.getElementById('lista-precos').innerHTML += precos[i] + '-'  //mostra uma informação do array mantendo a resposta anterior
+    }
+}
+
+function mostrarprodutos(){
+const produtos = [
+  "Smartphone", "Notebook", "Smart TV", "Fone de Ouvido Bluetooth", "Cadeira Gamer",
+  "Mouse Sem Fio", "Teclado Mecânico", "Monitor Ultrawide", "Impressora Multifuncional", "Tablet",
+  "Caixa de Som Portátil", "Smartwatch", "Câmera Digital", "Carregador Portátil", "Roteador Wi-Fi",
+  "Ventilador", "Ar-Condicionado", "Aspirador de Pó Robô", "Cafeteira Elétrica", "Liquidificador",
+  "Micro-ondas", "Geladeira", "Fogão", "Máquina de Lavar", "Ferro de Passar",
+  "Secador de Cabelo", "Chapinha", "Aparador de Pelos", "Escova de Dente Elétrica", "Balança Digital",
+  "Tênis de Corrida", "Mochila Impermeável", "Garrafa Térmica", "Kit de Ferramentas", "Parafusadeira",
+  "Furadeira", "Jogo de Panelas", "Faqueiro", "Taças de Vinho", "Fritadeira Sem Óleo",
+  "Massageador Elétrico", "Umidificador de Ar", "Lâmpada Inteligente", "Fechadura Digital", "Câmera de Segurança",
+  "Bicicleta Ergométrica", "Halteres", "Tapete de Yoga", "Kit de Potes de Vidro", "Guarda-Chuva"
+];
+for(let i = 0; i<produtos.length; i++){
+    console.log(produtos[i])
+    document.getElementById('lista-precos').innerHTML += `<p class="produtos">${produtos[i]}<p>`
+}
+
+}
