@@ -22,7 +22,7 @@ function addprecos(){
     document.getElementById('lista-precos').innerHTML = ''
     for(let i = 0; i<precos.length; i++){
         // console.log(precos[i])
-        document.getElementById('lista-precos').innerHTML += precos[i] + '-'  //mostra uma informação do array mantendo a resposta anterior
+        document.getElementById('lista-precos').innerHTML += precos[i] + '-' //mostra uma informação do array mantendo a resposta anterior
     }
 }
 
