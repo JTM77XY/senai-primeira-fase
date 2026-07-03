@@ -98,11 +98,11 @@
 //     console.log('ola')
 // } 
 
-//exer 10
+// exer 10
 // let s = 0
 // for(let i = 1; i <= 15; i+=2){
 //     s+=i
-//     // console.log(s)   //mostra todo o calculo, não só o resultado final.
+//     console.log(s)   //mostra todo o calculo, não só o resultado final.
 
 // }
 //  console.log(s)
@@ -148,7 +148,8 @@
 //esplicação de V= V + C e V+= V + C
 // let s = 10
 // let c = 4
-// s = s + c  // resultado: 14
+// // s = s + c  //resultado: 14
+// // s += c        //resultado: 14
 // s += s + c //resultado: 24
 // console.log(s)
 

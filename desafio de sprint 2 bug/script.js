@@ -6,7 +6,7 @@ function relatorio(){
 
     for(let i = 1; i <= sprint; i++){
      let bugs = Number(prompt(`quantos bugs foram encontrados no dia ${i}?`))
-     ListaBug.push(bugs)
+     ListaBug.push(bugs)// pega o valor da variavel bugs e joga dentro do array ListaBug.
      total = total + bugs
      document.getElementById('bug').innerHTML += ` dia ${i}: ${bugs} bug(s).`
     }

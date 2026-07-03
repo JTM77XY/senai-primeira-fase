@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(187, 127, 16);
+}
+
 h1{
     justify-self: center;
     margin: 10px;
@@ -16,6 +20,7 @@ h1{
 
 button{
     padding: 15px;
+    background-color: rgb(231, 41, 41);
 }
 
 #text{
@@ -31,6 +36,7 @@ textarea{
 }
 
 #bot:hover{
-    box-shadow: aqua 5px 6px 7px;
+    box-shadow: rgb(241, 27, 20) 5px 6px 7px;
+    transform: scale(1.02);
 }
 
