@@ -165,12 +165,12 @@
 
 //exer 04
 let numero = Number(prompt('informe um número'))
-let total
-for(let i = numero; i > 1 ; i--){ 
-   if(i % 2 == 1){
-   total = i - 2
-   console.log(total)
+
+for(let i = numero; i > 0 ; i--){ 
+   if(i % 2 != 0){
+   console.log(i+'é impar')
   }
+
 }
 
 //exer 05
