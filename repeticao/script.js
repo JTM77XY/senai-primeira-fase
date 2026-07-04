@@ -93,19 +93,15 @@
 //    fatorial = fatorial *i
 //    console.log(fatorial)
 // }
-let fatorial = 1
-let i = Number(prompt("digite o número"))
-while(i >= 1){
-   fatorial = fatorial * i
-   i--
-   console.log(fatorial)
+// let fatorial = 1
+// let i = Number(prompt("digite o número"))
+// while(i >= 1){
+//    fatorial = fatorial * i
+//    i--
+//    console.log(fatorial)
 
-}
+// }
 // console.log(fatorial)
-
-
-
-
 
 
 
@@ -142,8 +138,44 @@ while(i >= 1){
 
 
 
+//PARTE 2
 
+//exer 01
+// let palavra = prompt('digite uma palavra:')
+// for(let i = 0; i < 10; i++){ 
+//    console.log(palavra)
+//    document.getElementById('total').innerHTML += ` ${palavra} `    
+// }
 
+//exer 02
+// let numero = Number(prompt('digite um número:'))
+// let soma = 0
+// for(let i = 2; i <= numero; i+=2){
+//  soma = soma + i
+// }
+// console.log(soma)
 
+//exer 03
+//  let lista 
+// for(let i = 10; i > 0; i--){
+//    lista = prompt('digite um item:')
+//    console.log(lista)
+//    document.getElementById('total').innerHTML += ` ${lista} `
+// }
 
+//exer 04
+let numero = Number(prompt('informe um número'))
+let total
+for(let i = numero; i > 1 ; i--){ 
+   if(i % 2 == 1){
+   total = i - 2
+   console.log(total)
+  }
+}
 
+//exer 05
+// let asteriscos = ''
+// for(let i = 1; i <= 5; i++){
+//   asteriscos += '*'
+//   console.log(asteriscos)
+// }

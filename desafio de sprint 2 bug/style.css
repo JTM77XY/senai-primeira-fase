@@ -29,9 +29,10 @@ button{
 }
 
 textarea{
-    /* padding: 25px; */
-    width: 400px;
+    padding: 20px;
+    width: 700px;
     height: 200px;
+    border-radius: 5px;
     
 }
 
