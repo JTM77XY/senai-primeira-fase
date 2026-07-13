@@ -284,7 +284,7 @@
 // }
 // console.log(altura1)
 // console.log(altura2)
-// console.log(`${i} anos`)
+// console.log(`${i} anos`) 
 
 // meia meia
 // let aumento
@@ -302,4 +302,15 @@
 //      let total = s*i
 //     console.log(total)
 // }
+
+//exer 75
+// let c = 0
+// for(let i = 0; i < 500; i++){
+//     c = c + 0.33
+//     // console.log(c)
+// }
+
+// console.log(c)
+
+
 

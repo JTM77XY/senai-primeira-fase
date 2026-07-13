@@ -3,15 +3,24 @@ let nomes = []
 console.log(nomes)
 
 function adicionar(){
-    let pessoa = prompt("digite um nome:")
-    for(let i = 0; i < nomes.length; i++){
-        // if(){}
-        console.log(nomes[i])
-    }
-    
+ let pessoa = prompt("digite um nome:")
+//  let i
+//  let total
+// for( i = 0; i <nomes.length; i++){ // faz o contador aumentar tendo como limite o tamanho do array.
+//     total = i
+//     console.log(total)
+// }
+
+// if(pessoa == nomes[total]){
+//     console.log('não pode ser repetido')
+//     document.getElementById('resultado').innerHTML = `não pode repetir o nome ${pessoa}`
+// }else{
+//     nomes.push(pessoa)
+//     console.log(nomes)
+//     document.getElementById('resultado').innerHTML = nomes
+// }
     nomes.push(pessoa)
-    // console.log(nomes)
-    document.getElementById('resultado').innerHTML = nomes
+    console.log(nomes)
 }
 
 
@@ -29,7 +38,8 @@ console.log(indice)
 
 
 function remover(){
- let indiceP = nomes.indexOf('sonic')
+let escluir = prompt('digite o nome que sera removido:')
+ let indiceP = nomes.indexOf(escluir)
 nomes.splice(indiceP,1)
 console.log(nomes)
 }
