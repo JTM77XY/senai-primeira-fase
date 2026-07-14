@@ -72,6 +72,16 @@ function adicionar(){
   
 }
 
-let semana = ['segunda','terça','quarta','quinta','sexta','sábado','domingo']
-semana.push('feriado')
-console.log(semana)
+
+
+const maximas =[]
+const minimas =[]
+
+function gerartemperaturas(){
+  for(let i = 0; i < 30; i++){
+    let min = Math.floor(Math.random()*35)
+    minimas.push(min)
+
+  }
+  console.log(minimas)
+}

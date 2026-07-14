@@ -118,7 +118,7 @@
 // let s = 1
 // for(let i = 5; i>1 ; i--){
 //   s = s*i // não usa += , pois incrementar o resultado de S*I no valor que ja tem em S. exemplo: 1*5 = 5, 5+1 = 6. 
-
+//  console.log(s)
 // }
 // console.log(s)
 
