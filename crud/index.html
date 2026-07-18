@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylr.css">
     <title>CRUD</title>
 </head>
 <body>
@@ -15,29 +15,40 @@
         </div>
 
         <div class="container-inputs">
-         <label for="">altura</label>
+         <label for="input-altura">altura</label>
          <input id="input-altura" type="number">
         </div>
 
         <div class="container-inputs">
-         <label for="">cor</label>
+         <label for="input-cor">cor</label>
          <input id="input-cor" type="text">
         </div>
 
         <div class="container-inputs">
-         <label for="">custo</label>
+         <label for="input-custo">custo</label>
          <input id="input-custo" type="number">
         </div>
 
+        <div class="container-inputs">
+         <label for="input-custo">id</label>
+         <input id="input-id" type="number">
+        </div>
+
         <button onclick="cadastrardino()">+</button>
+        <button onclick="salvardino()">salvar</button>
+        <button onclick="escluir()">escluir</button>
     </div>
 
     <hr>
     <hr>
+    <div id="painel-botoes">
     <button onclick="mostrartodos()">mostrar todos dinos</button>
     <button onclick="testar()">teste</button>
+    <button onclick="pesquisar()">pesquisar</button>
+    </div>
     <hr>
     <hr>
+
 
     <div id="painel-dinos">nada dentro:</div>
 

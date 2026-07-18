@@ -1,0 +1,69 @@
+:root {
+  /* --- CORES PRINCIPAIS (Identidade e Destaques) --- */
+  --color-primary: #2d5a27;       /* Verde Selva: Cor principal da marca (natureza, floresta) */
+  --color-primary-hover: #1e3f1a; /* Verde Selva Escuro: Para estados de hover */
+  --color-secondary: #df7a15;     /* Laranja Lava: Para botões de ação (CTA), badges e destaques */
+  --color-secondary-hover: #b8600c; /* Laranja Escuro: Hover do CTA */
+
+  /* --- CORES DE SUPORTE (Tons Terrosos) --- */
+  --color-accent: #8b5a2b;        /* Marrom Fóssil/Terra: Detalhes, bordas ou links secundários */
+  --color-accent-light: #e6dfd3;  /* Areia/Osso: Fundos de seções ou cards para quebrar o branco */
+
+  /* --- NEUTROS (Texto e Fundos Gerais) --- */
+  --color-bg-main: #f9f8f6;       /* Off-White Quente: Fundo principal do site (confortável para os olhos) */
+  --color-bg-dark: #1a2219;       /* Grafite Esverdeado: Fundo para rodapés ou modo escuro */
+  --color-text-main: #2b2b2b;     /* Cinza Escuro: Texto principal (alta legibilidade) */
+  --color-text-muted: #666666;    /* Cinza Médio: Textos secundários, subtítulos e descrições */
+  --color-white: #ffffff;         /* Branco Puro: Para fundos de cards e elementos isolados */
+
+  /* --- SISTEMA (Feedbacks visuais) --- */
+  --color-success: #2e7d32;
+  --color-error: #c62828;
+}
+
+body{
+    background-color: var(--color-bg-main);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-dino{
+    background-color: var(--color-secondary);
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#painel-dinos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    /* box-shadow: 0 0 10px #000; */
+    flex-wrap: wrap;
+}
+
+#form{
+    background-color: var(--color-primary);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 25px;
+    border-radius: 10px;
+    
+}
+
+.container-inputs{
+    background-color: rgb(81, 255, 0);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
