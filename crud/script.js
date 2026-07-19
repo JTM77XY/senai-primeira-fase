@@ -22,7 +22,7 @@
 
 let dinos = []
 
-function cadastrardino(){
+function cadastrardino(){ //as informações digitadas nos inputs são quardadas nas variaveis id, nome, altura, cor, custo.
     const novodino = {
         id: Date.now(),
         nome: document.getElementById('input-nome').value,
@@ -33,7 +33,7 @@ function cadastrardino(){
     dinos.push(novodino)
     console.log(dinos)
     limparformulario() // a função cadastrardino está chamando a funcão limparformulario.
-    mostrartodos()
+    mostrartodos() // a função cadastrardino está chamando a funcão mostrartodos
 }
 
 function limparformulario(){
@@ -42,11 +42,11 @@ function limparformulario(){
    document.getElementById('input-cor').value = ''
    document.getElementById('input-custo').value = ''
    document.getElementById('input-id').value = ''
-   document.getElementById('input-nome').focus()
+   document.getElementById('input-nome').focus() // faz o cursor aparecer no input nome.
 }
 
-function mostrartodos(){
-    document.getElementById('painel-dinos').innerHTML = ''
+function mostrartodos(){// é o espaço onde as informações que foram digitadas nos inputs vão ser exibidas na página.
+ document.getElementById('painel-dinos').innerHTML = ''
  for(let i = 0; i<dinos.length; i++){
     // alert(dinos[i].nome)
     document.getElementById('painel-dinos').innerHTML += 
@@ -62,7 +62,7 @@ function mostrartodos(){
 }
 
 
-function testar(){
+function testar(){ // insere um dinossauro e caracteristicas predefinidas nas variaveis caso não queira digitar nada nos inputs.
 dinos = [
  {
     id: Date.now(),
@@ -85,7 +85,7 @@ dinos = [
 
 }
 
-function pesquisar(){
+function pesquisar(){ //pesquisa no array o nome digitado no input e se tiver algum nome igual ao digitano no array, puxa as caracteristcas do elemento pesquisado.
     let nomeprocurado = document.getElementById('input-nome').value
     for(let i = 0; i <dinos.length; i++){
         if(nomeprocurado == dinos[i].nome){
@@ -101,7 +101,7 @@ function pesquisar(){
 }
 
 
-function salvardino(){
+function salvardino(){ //depois de usar a função pesquisar e trazer as caracteristicas do elemento digitado para os inputs, essa função joga essas caracteristicas para o elemento pesquisado na função anterior udando o ID do elemento para saber o elemento certo.
     let id = Number(document.getElementById('input-id').value)
     for(let i = 0; i <dinos.length; i++){
         if(id == dinos[i].id){
@@ -118,9 +118,8 @@ function salvardino(){
    limparformulario()
 }
 
-function escluir(){
-
-     let id = Number(document.getElementById('input-id').value)
+function escluir(){// esclui um elemento e suas caracteristicas do array usando o seu ID para localizar esse elemento no array.
+    let id = Number(document.getElementById('input-id').value)
     for(let i = 0; i <dinos.length; i++){
         if(id == dinos[i].id){
            console.log(dinos[i])
