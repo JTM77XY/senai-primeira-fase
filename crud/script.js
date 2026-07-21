@@ -22,7 +22,22 @@
 
 let dinos = []
 
+function salvardados(){
+    localStorage.setItem('dinos', JSON.stringify(dinos))
+     //let texto = JSON.stringify(dino)
+     //let local storagr.setitem('dinos', texto)
+
+}
+
+function carregardados(){
+   dinos = JSON.parse(localStorage.getItem('dinos'))
+   console.log(dinos)
+   //let textolido = localstorage.getitem('dinos')
+   //
+}
+
 function cadastrardino(){ //as informações digitadas nos inputs são quardadas nas variaveis id, nome, altura, cor, custo.
+    carregardados()
     const novodino = {
         id: Date.now(),
         nome: document.getElementById('input-nome').value,
@@ -34,6 +49,7 @@ function cadastrardino(){ //as informações digitadas nos inputs são quardadas
     console.log(dinos)
     limparformulario() // a função cadastrardino está chamando a funcão limparformulario.
     mostrartodos() // a função cadastrardino está chamando a funcão mostrartodos
+    salvardados()
 }
 
 function limparformulario(){
@@ -61,8 +77,12 @@ function mostrartodos(){// é o espaço onde as informações que foram digitada
 
 }
 
-
+window.location.href = '' //leva para outra página
 function testar(){ // insere um dinossauro e caracteristicas predefinidas nas variaveis caso não queira digitar nada nos inputs.
+    localStorage.setItem('teste', 45)
+    let testedeleitura = localStorage.getItem('teste')
+    console.log(testedeleitura)
+
 dinos = [
  {
     id: Date.now(),
@@ -75,9 +95,9 @@ dinos = [
 {
     id: Date.now(),
     nome: "t-rex",
-    altura: 3,
-    cor: 'marrom',
-    custo: 14,
+    altura: 6,
+    cor: 'preto',
+    custo: 20,
 
 }
 ]
