@@ -67,3 +67,11 @@ body{
     
 
 }
+
+
+
+/* esconde o input id */
+#div-id{  
+    display: none; 
+}
+

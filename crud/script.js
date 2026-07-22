@@ -30,10 +30,10 @@ function salvardados(){
 }
 
 function carregardados(){
-   dinos = JSON.parse(localStorage.getItem('dinos'))
+   dinos = JSON.parse(localStorage.getItem('dinos')) || []
    console.log(dinos)
    //let textolido = localstorage.getitem('dinos')
-   //
+   // dinos = 
 }
 
 function cadastrardino(){ //as informações digitadas nos inputs são quardadas nas variaveis id, nome, altura, cor, custo.
@@ -77,7 +77,7 @@ function mostrartodos(){// é o espaço onde as informações que foram digitada
 
 }
 
-window.location.href = '' //leva para outra página
+
 function testar(){ // insere um dinossauro e caracteristicas predefinidas nas variaveis caso não queira digitar nada nos inputs.
     localStorage.setItem('teste', 45)
     let testedeleitura = localStorage.getItem('teste')
