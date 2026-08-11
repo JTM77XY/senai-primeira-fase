@@ -24,7 +24,6 @@
 // personagens.push("Padre Ernan Buco")
 // console.log(personagens)
 
-
 //66.1.8
 // const personagens = [
 //     "Peba",
@@ -43,16 +42,14 @@
 //     "GENéZio"
 // ];
 
-// let indice =personagens.indexOf("Waldisney")
+// let indice = personagens.indexOf("Waldisney")
 // console.log(indice)
-
 //66.1.12
 // const personagens = [
 //     "Tião",
 //     "Junin",
 //     "Padre Ernan Buco"
 // ];
-
 // personagens.splice(1,1)
 // console.log(personagens)
 
@@ -86,7 +83,6 @@
 //     "GENéZio",
 //     "Waldisney"
 // ];
-
 // let p = personagens.includes("Capitão Ganso")
 // console.log(p)
 
@@ -258,24 +254,24 @@
 
 
 //68.2.33
-const empresas = [
-  "Grades Cida",
-  "Food Park Comidas e Clichês",
-  "Churrascaria do Gaúcho",
-  "Batata da Tabata Batataria",
-  "Lanchonete Altas Horas",
-  "Tio do Pavê Sobremesas",
-  "Bolores Bolos e Flores",
-  "Sanduíche-iche da Ruth",
-  "Cereal Killer Cereal Bar",
-  "Restaurante Contra-Filé"
-];
+// const empresas = [
+//   "Grades Cida",
+//   "Food Park Comidas e Clichês",
+//   "Churrascaria do Gaúcho",
+//   "Batata da Tabata Batataria",
+//   "Lanchonete Altas Horas",
+//   "Tio do Pavê Sobremesas",
+//   "Bolores Bolos e Flores",
+//   "Sanduíche-iche da Ruth",
+//   "Cereal Killer Cereal Bar",
+//   "Restaurante Contra-Filé"
+// ];
 
-console.log(empresas)
-let indice = empresas.indexOf("Lanchonete Altas Horas")
-console.log(indice)
-let remove = empresas.splice(indice,1)
-console.log(empresas)
+// console.log(empresas)
+// let indice = empresas.indexOf("Lanchonete Altas Horas")
+// console.log(indice)
+// let remove = empresas.splice(indice,1)
+// console.log(empresas)
 
 
 

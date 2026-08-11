@@ -1,4 +1,4 @@
-//EXERCÍCIO 01, 02
+// EXERCÍCIO 01, 02
 // let semana = ['segunda','terça','quarta','quinta','sexta','sábado','domingo']
 // let semana2 = []
 // for(let i = 6; i >= 0; i--){

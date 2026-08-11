@@ -144,6 +144,7 @@ function escluir(){// esclui um elemento e suas caracteristicas do array usando 
         if(id == dinos[i].id){
            console.log(dinos[i])
            dinos.splice(i,1)
+           
 
         }
         
